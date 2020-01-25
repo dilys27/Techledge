@@ -2,10 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>AppTheme | About</title>
+    <title>Techledge | About</title>
     <link rel="stylesheet" href="css/flexboxgrid.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
   </head>
   <body>
     <!-- HEADER -->
@@ -13,14 +19,14 @@
       <div class="container">
         <div class="row end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
           <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-            <h1><span class="primary-text">App</span>Theme</h1>
+            <h1><span class="primary-text">Tech</span><span class="second-text">Ledge</span></h1>
           </div>
           <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
             <nav id="navbar">
               <ul>
                 <li><a href="index.html">Home</a></li>
-                <li class="current"><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">Sign In</a></li>
+                <li class="current"><a href="services.html">Sign Up</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
             </nav>
@@ -29,61 +35,41 @@
       </div>
     </header>
 
-    <!-- SUBHEADER -->
-    <section id="subheader">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h1>About Us</h1>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- MAIN PAGE -->
-    <section id="page" class="about">
-      <div class="container">
-        <div class="row center-xs center-sm center-md center-lg">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h2><span class="primary-text">Who</span> We Are</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <hr>
-            <h2><span class="primary-text">What</span> We Do</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="login-form">
+      <form action="/examples/actions/confirmation.php" method="post">
+          <h2 class="text-center">Sign In</h2>		
+          <div class="text-center social-btn">
+              <a href="#" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i> Sign in with <b>Facebook</b></a>
+        <a href="#" class="btn btn-danger btn-block"><i class="fa fa-google"></i> Sign in with <b>Google</b></a>
           </div>
-        </div>
-      </div>
-    </section>
+      <div class="or-seperator"><i>or</i></div>
+          <div class="form-group">
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                  <input type="text" class="form-control" name="e-mail" placeholder="Adresse e-mail" required="required">
+              </div>
+          </div>
+      <div class="form-group">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                  <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+              </div>
+          </div>        
+          <div class="form-group">
+              <button type="submit" class="btn btn-success btn-block login-btn">Sign in</button>
+          </div>
+          <div class="clearfix">
+              <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+              <a href="#" class="pull-right text-success">Forgot Password?</a>
+          </div>  
+         
+      </form>
+      <div class="hint-text small">You don't have an Account ? <a href="#" class="text-success">  Register Here !</a></div>
+  </div>
 
-    <!-- COMPANY -->
-    <section id="company">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-            <h4>Contact Us</h4>
-            <ul>
-              <li><i class="fa fa-phone"></i> (617) 555-5555</li>
-              <li><i class="fa fa-envelope"></i> support@apptheme.test</li>
-              <li><i class="fa fa-map"></i> 400 Main st, Boston MA</li>
-            </ul>
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-            <h4>About Us</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-            <h4>Newsletter</h4>
-            <p>Lorem ipsum dolor sit amet</p>
-            <form>
-              <input type="text" name="email" placeholder="Enter Email">
-              <button type="submit" name="button">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- FOOTER -->
     <footer id="main-footer">
