@@ -1,0 +1,4 @@
+[
+    {"pseudo":"admin","email":"admin@admin.fr","pwd":"admin","status":"0"},
+    {"pseudo":"user","email":"user@user.fr","pwd":"user","status":"1"}
+]
