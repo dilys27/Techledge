@@ -1,0 +1,129 @@
+{
+    "techlists":[
+    {
+        "title":  "techlist_1",
+        "description": "bla bla",
+        "image": "src.png",
+        "list":[
+                { 
+                    "title": "Frankenstein",
+                    "description": "1818, Mary Wollstonecraft Shelly",
+                    "link": "https://en.m.wikipedia.org/wiki/Frankenstein",
+                    "category": "Book" 
+                }, 
+                { 
+                    "title": "As We May Think",
+                    "description": "1945, Vannevar Bush",
+                    "link": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+                    "category": "Article" 
+                }, 
+                { 
+                    "title": "The Atlantic",
+                    "description": "",
+                    "link": "https://en.m.wikipedia.org/wiki/The_Atlantic",
+                    "category": "Corporation" 
+                }
+            ] 
+    },
+    {
+        "title":  "techlist_2",
+        "description": "bla bla",
+        "image": "src.png",
+        "list":[
+                { 
+                    "title": "Frankenstein",
+                    "description": "1818, Mary Wollstonecraft Shelly",
+                    "link": "https://en.m.wikipedia.org/wiki/Frankenstein",
+                    "category": "Book" 
+                }, 
+                { 
+                    "title": "As We May Think",
+                    "description": "1945, Vannevar Bush",
+                    "link": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+                    "category": "Article" 
+                }, 
+                { 
+                    "title": "The Atlantic",
+                    "description": "",
+                    "link": "https://en.m.wikipedia.org/wiki/The_Atlantic",
+                    "category": "Corporation" 
+                }
+            ]
+    },
+    {
+        "title":  "techlist_3",
+        "description": "bla bla",
+        "image": "src.png",
+        "list":[
+                { 
+                    "title": "Frankenstein",
+                    "description": "1818, Mary Wollstonecraft Shelly",
+                    "link": "https://en.m.wikipedia.org/wiki/Frankenstein",
+                    "category": "Book" 
+                }, 
+                { 
+                    "title": "As We May Think",
+                    "description": "1945, Vannevar Bush",
+                    "link": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+                    "category": "Article" 
+                }, 
+                { 
+                    "title": "The Atlantic",
+                    "description": "",
+                    "link": "https://en.m.wikipedia.org/wiki/The_Atlantic",
+                    "category": "Corporation" 
+                }
+            ]
+    },
+    {
+        "title":  "techlist_4",
+        "description": "bla bla",
+        "image": "src.png",
+        "list":[
+                { 
+                    "title": "Frankenstein",
+                    "description": "1818, Mary Wollstonecraft Shelly",
+                    "link": "https://en.m.wikipedia.org/wiki/Frankenstein",
+                    "category": "Book" 
+                }, 
+                { 
+                    "title": "As We May Think",
+                    "description": "1945, Vannevar Bush",
+                    "link": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+                    "category": "Article" 
+                }, 
+                { 
+                    "title": "The Atlantic",
+                    "description": "",
+                    "link": "https://en.m.wikipedia.org/wiki/The_Atlantic",
+                    "category": "Corporation" 
+                }
+            ]
+    },
+    {
+        "title":  "techlist_5",
+        "description": "bla bla",
+        "image": "src.png",
+        "list":[
+                { 
+                    "title": "Frankenstein",
+                    "description": "1818, Mary Wollstonecraft Shelly",
+                    "link": "https://en.m.wikipedia.org/wiki/Frankenstein",
+                    "category": "Book" 
+                }, 
+                { 
+                    "title": "As We May Think",
+                    "description": "1945, Vannevar Bush",
+                    "link": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+                    "category": "Article" 
+                }, 
+                { 
+                    "title": "The Atlantic",
+                    "description": "",
+                    "link": "https://en.m.wikipedia.org/wiki/The_Atlantic",
+                    "category": "Corporation" 
+                }
+            ]
+    }         
+    ]  
+}
